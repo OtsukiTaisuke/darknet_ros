@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: yolov3-tiny-robocon.cfg
+  weight_file:
+    name: yolov3-tiny-robocon_final.weights
+  threshold:
+    value: 0.1
+  detection_classes:
+    names:
+      - red
+      - blue
+      - yellow
